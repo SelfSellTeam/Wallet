@@ -1,0 +1,1100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{2884866a-b0c5-4c07-a9bc-10eafecf16b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\blockchain">
+      <UniqueIdentifier>{a9898acd-fb4c-43e8-82ad-85c2274446cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\wallet-view">
+      <UniqueIdentifier>{e30af15d-24fe-4dbc-a793-2dd56887ed4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\blockchain">
+      <UniqueIdentifier>{16f0dbfe-2eb1-48f6-b9b4-f2e29eb5c1c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\wallet-view">
+      <UniqueIdentifier>{5a4abba4-9017-481a-a9c7-df0a0bc4a9b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Generated Files\Debug">
+      <UniqueIdentifier>{5bcca5d0-5b62-4535-8ff2-bc9d9e833431}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Header Files\Generated Files\Release">
+      <UniqueIdentifier>{abef410c-ebaa-401c-9ca4-74d6769e6626}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rpcmgr.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rpcmgr.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_datamgr.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_datamgr.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_workerthreadmanager.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_workerthreadmanager.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_workerthread.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_workerthread.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_tokentransaction.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_tokentransaction.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_accountcellwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_accountcellwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_accountpage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_accountpage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addcontactdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addcontactdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_addnodedialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_addnodedialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_applydelegatepage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_applydelegatepage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_bottombar.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_bottombar.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chooseupgradedialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chooseupgradedialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_commondialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_commondialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_commontip.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_commontip.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_consoledialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_consoledialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_contactdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_contactdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_contactpage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_contactpage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_deleteaccountdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_deleteaccountdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_editremarkdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_editremarkdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_exportdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_exportdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_firstlogin.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_firstlogin.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_frame.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_frame.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_functionbar.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_functionbar.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_goopal.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_goopal.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_importdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_importdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_incomecellwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_incomecellwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ipcellwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ipcellwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_lockpage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_lockpage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_mainpage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_mainpage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_namedialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_namedialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_newsdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_newsdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_normallogin.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_normallogin.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_peerinfodialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_peerinfodialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_remarkdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_remarkdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_searchoptionwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_searchoptionwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_selectgoppathwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_selectgoppathwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_setdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_setdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_showcontentdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_showcontentdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_singlecontactwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_singlecontactwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_titlebar.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_titlebar.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transferconfirmdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transferconfirmdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_transferpage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_transferpage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_upgradepage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_upgradepage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_waitingforsync.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_waitingforsync.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_waitingpage.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_waitingpage.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="goopal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="workerthreadmanager.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="workerthread.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="wallet.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="tokentransaction.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="sundry.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="rpcmgr.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="misc.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="datamgr.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="contract.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="commandjson.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="blockchain.cpp">
+      <Filter>Source Files\blockchain</Filter>
+    </ClCompile>
+    <ClCompile Include="accountcellwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="accountpage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="addcontactdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="addnodedialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="applydelegatepage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="bottombar.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="chooseupgradedialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="commondialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="commontip.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="consoledialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="contactdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="contactpage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="debug_log.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="deleteaccountdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="editremarkdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="exportdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="firstlogin.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="frame.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="functionbar.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="identitycellwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="importdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="incomecellwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="ipcellwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="lockpage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="mainpage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="namedialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="newsdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="normallogin.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="outputmessage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="peerinfodialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="remarkdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="searchoptionwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="selectgoppathwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="setdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="showcontentdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="singlecontactwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="titlebar.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="transferconfirmdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="transferpage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="upgradepage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="waitingforsync.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="waitingpage.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\accountdetailwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\chooseaddaccountdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\myprogressbar.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\qrcodewidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\remarkcellwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\rightclickmenudialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\shadowwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="control\showbottombarwidget.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_accountdetailwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_accountdetailwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chooseaddaccountdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chooseaddaccountdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_myprogressbar.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_myprogressbar.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_qrcodewidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_qrcodewidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_remarkcellwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_remarkcellwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_rightclickmenudialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_rightclickmenudialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_shadowwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_shadowwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_showbottombarwidget.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_showbottombarwidget.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_dynamicmove.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_dynamicmove.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="extra\dynamicmove.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_chooseexportdialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_chooseexportdialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_renamedialog.cpp">
+      <Filter>Header Files\Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_renamedialog.cpp">
+      <Filter>Header Files\Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\chooseexportdialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\dialogwithshadow.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+    <ClCompile Include="dialog\renamedialog.cpp">
+      <Filter>Source Files\wallet-view</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="accountcellwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="accountpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addcontactdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addnodedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="applydelegatepage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bottombar.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="chooseupgradedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commondialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commontip.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="consoledialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="contactdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="contactpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deleteaccountdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="editremarkdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="exportdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="firstlogin.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="functionbar.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="identitycellwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="importdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="incomecellwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ipcellwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lockpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="namedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newsdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="normallogin.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="peerinfodialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="remarkdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="searchoptionwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectgoppathwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="showcontentdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="singlecontactwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="titlebar.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferconfirmdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="upgradepage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waitingforsync.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waitingpage.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="rpcmgr.h">
+      <Filter>Header Files\blockchain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="datamgr.h">
+      <Filter>Header Files\blockchain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="workerthreadmanager.h">
+      <Filter>Header Files\blockchain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="workerthread.h">
+      <Filter>Header Files\blockchain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tokentransaction.h">
+      <Filter>Header Files\blockchain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="accountcellwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="accountpage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addcontactdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="addnodedialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="applydelegatepage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="bottombar.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="chooseupgradedialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commondialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="commontip.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="consoledialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="contactdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="contactpage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="deleteaccountdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="editremarkdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="exportdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="firstlogin.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="frame.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="functionbar.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="importdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="incomecellwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ipcellwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="lockpage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="mainpage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="namedialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="newsdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="normallogin.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="peerinfodialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="remarkdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="searchoptionwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="selectgoppathwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="setdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="showcontentdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="singlecontactwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="titlebar.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferconfirmdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="transferpage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="upgradepage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waitingforsync.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="waitingpage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="goopal.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\accountdetailwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\chooseaddaccountdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\remarkcellwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\rightclickmenudialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\shadowwidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\accountdetailwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\chooseaddaccountdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\myprogressbar.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\qrcodewidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\remarkcellwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\rightclickmenudialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\shadowwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="control\showbottombarwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="extra\dynamicmove.h">
+      <Filter>Header Files\blockchain</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialog\chooseexportdialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialog\renamedialog.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialog\chooseexportdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="dialog\renamedialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_accountcellwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_accountpage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addcontactdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_addnodedialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_applydelegatepage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_bottombar.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_chooseupgradedialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commondialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_commontip.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_consoledialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_contactdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_contactpage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_deleteaccountdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_editremarkdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_exportdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_firstlogin.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_functionbar.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_identitycellwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_importdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_incomecellwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ipcellwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_lockpage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_mainpage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_namedialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_newsdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_normallogin.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_peerinfodialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_remarkdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_searchoptionwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_selectgoppathwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_setdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_showcontentdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_singlecontactwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_titlebar.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transferconfirmdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_transferpage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_upgradepage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_waitingforsync.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_waitingpage.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wallet.h">
+      <Filter>Header Files\blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="contract.h">
+      <Filter>Header Files\blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="blockchain.h">
+      <Filter>Header Files\blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="sundry.h">
+      <Filter>Header Files\blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="misc.h">
+      <Filter>Header Files\blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="commandjson.h">
+      <Filter>Header Files\blockchain</Filter>
+    </ClInclude>
+    <ClInclude Include="debug_log.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </ClInclude>
+    <ClInclude Include="identitycellwidget.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </ClInclude>
+    <ClInclude Include="outputmessage.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </ClInclude>
+    <ClInclude Include="sandboxcommandmap.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gop_common_define.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_accountdetailwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_chooseaddaccountdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_remarkcellwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_rightclickmenudialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_shadowwidget.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="control\qrencode.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </ClInclude>
+    <ClInclude Include="dialog\dialogwithshadow.h">
+      <Filter>Header Files\wallet-view</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_chooseexportdialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_renamedialog.h">
+      <Filter>Header Files\Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="gop_simplified_Chinese.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+    <None Include="gop_English.ts">
+      <Filter>Translation Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="logo.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="SSC.ico" />
+  </ItemGroup>
+</Project>
